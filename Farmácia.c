@@ -3,6 +3,7 @@
 #include <stdlib.h>
 //Inicio
 int main(){
+    setlocale(LC_ALL,"");
     int opcao, qnt, i;
     float preco, t = 0, subtotal;
     char continuar;
